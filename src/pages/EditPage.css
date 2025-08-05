@@ -1,0 +1,48 @@
+.containeredit{
+      background-color: #212121;
+      margin:50px 300px 100px 300px;
+      border-radius:30px;
+
+}
+.containeredit form{
+        color:#b3b3b3;
+}
+.containeredit input, select, textarea {
+  width: 100%;           /* makes them fill the container’s width */
+  max-width: 600px;      /* optional max width */
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box; /* includes padding in width */
+  margin-left:30px;
+  flex: 1;
+  border: 1px solid #555;
+  background: #212121;
+  color: white;
+}
+.containeredit p{
+    margin-left:30px;
+
+}
+
+.containeredit textarea {
+  min-height: 150px;     /* taller */
+  resize: vertical;      /* allow vertical resize */
+}
+.containeredit h1{
+    padding:30px 30px 30px 30px;
+     color:#b3b3b3;
+
+}
+.containeredit button{
+    margin: 40px 0px 30px 30px;
+    padding:10px 20px 10px 20px;
+    background-color: #1db954;
+    border:0px;
+    border-radius: 15px;
+    font-weight:bold;
+}
+.containeredit button:hover{
+  background-color: #1ed760; /* brighter green on hover */
+}

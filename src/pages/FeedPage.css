@@ -1,0 +1,103 @@
+.reviewcard {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  gap:1rem;
+  border: 5px solid #121212;
+  border-radius: 20px;
+  background-color: #212121;
+  height: 200px;
+}
+.container h1{
+    font-family: 'Inter', sans-serif; /* remove bullet points */
+    color: #b3b3b3;
+        margin-left:30px;
+}
+.container button{
+    font-family: 'Inter', sans-serif; /* remove bullet points */
+    margin-left:30px;
+    background-color:#1db954;
+    padding:10px;
+    border-radius:10px;
+    border:0px;
+}
+.posts {
+  margin-right:20px;
+  margin-left:20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1rem; /* space between cards */
+  padding: 0;
+  list-style: none;
+  font-family: 'Inter', sans-serif; /* remove bullet points */
+}
+.imglink a:hover {
+  background-color: #1ed760; /* brighter green on hover */
+  cursor: pointer;
+}
+
+.imglink{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.imglink a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: #121212;
+  background-color:#1db954;
+  padding:15px 20px 15px 20px;
+  border-radius: 15px;
+  font-size:small;
+  font-weight: bold;
+  
+}
+.imglink img {    /* same height */
+  height: 150px;
+  width:150px;
+  border-radius:10px;
+  margin:0px;
+}
+
+ul{
+  list-style:none;
+}
+body{
+  background-color:#121212;
+}
+.reviewinfo{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reviewinfo a{
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight:bolder;
+  font-family: 'Inter', sans-serif;
+}
+.reviewinfo p{
+  font-size:small;
+  margin:0px;
+  color: #b3b3b3;
+
+}
+.edit{
+  align-self: flex-end; /* pushes it to the right side */
+  margin-top: auto;
+}
+.bottomrow{
+  padding-top:8px;
+}
+.filter-buttons button{
+    font-family: 'Inter', sans-serif; /* remove bullet points */
+    margin-left:30px;
+    background-color:#1db954;
+    padding:10px 20px 10px 20px;
+    border-radius:10px;
+    border:0px;
+    margin-bottom:10px;
+}
+.filter-buttons button:hover{
+  background-color:#1ed760;
+}
